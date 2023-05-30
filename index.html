@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div id="mySidenav" class="sidenav">
+                <header class="pdoc">Python Documentation</header>
+                <a href="#python" class="nav-link">Python</a>
+                <a href="#pre-reqs" class="nav-link">Pre-Reqs</a>
+                <a href="#hello_world" class="nav-link">Hello World</a>
+                <a href="#data_types" class="nav-link">Data Types</a>
+                <a href="#conditional_statements" class="nav-link">Conditional Statements</a>
+                <a href="#loops" class="nav-link">Loops</a>
+                <img alt="python image" src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/">
+            </div>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="python">
+                <header>Python</header>
+                    <p class="medium big-font">What is Python?</p>
+                    <p class="text">Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.</p>
+                    <p class="text">Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems</p>
+                    <p class="text">Python is used in a lot of different industries, such as:</p>
+                    <ul>
+                        <li>Information Technology</li>
+                        <li>Data Science / Analytics</li>
+                        <li>Web Development</li>
+                        <li>Machine Learning</li>
+                    </ul>
+            </section>
+            <section class="main-section" id="pre-reqs">
+                <header>Pre-Reqs</header>
+                    <p class="medium big-font">What do you need to know?</p>
+                    <p class="text">Nothing! Python is the best language to start learning to program with.</p>
+                    <p class="text">Python's syntax is very close to the everyday english language, the closest of any language.</p>
+                    <p class="text">Python's locial operators such as <span class="statements">if, while, for, and, or, true, false</span> make it very easy to understand the logic behind the code you are writing.</p>
+                    <p class="text">It is advisable to have basic computer knowledge and logical thinking, but that goes for anything technical related.</p>
+            </section>
+            <section class="main-section" id="hello_world">
+                <header>Hello World</header>
+                    <div class="border"></div>
+                    <p class="medium big-font">Write your first python code!</p>
+                    <p class="text">Traditionally, when learning a new programming language you will learn how to say "Hello World!" in your code.</p>
+                    <p class="text">In pythong, it looks like this:</p>
+                    <p class="code-block">print("Hello World!")</p>
+                    <p class="text">Thats it! Overtime your code will become more advanced and you'll know how to do more than just say hello to the world.</p>
+            </section>
+            <section class="main-section" id="data_types">
+                <header>Data Types</header>
+                <p class="medium big-font">Python has 9 data types:</p>
+                <ul>
+                    <li>Int: This data type contains positive or negative whole numbers (without fractions or decimals). 
+                        In Python, there is no limit to how long an integer value can be.</li>
+                    <li>Float: This value is represented by the float class. It is a real number with a floating-point representation. 
+                        It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer 
+                        may be appended to specify scientific notation.</li>
+                    <li>Complex Numbers: This data type is represented by a complex class. 
+                        It is specified as (real part) + (imaginary part)j. For example <span class="statement">2+3j</span></li>
+                    <li>String: A string is a collection of one or more characters put in a single quote, double-quote, or triple-quote. 
+                        In python there is no character data type, a character is a string of length one. It is represented by str class.  </li>
+                    <li>List: This data type just like arrays, declared in other languages which is an ordered collection of data.
+                         It is very flexible as the items in a list do not need to be of the same type.</li>
+                    <li>Tuple: Just like a list, a tuple is also an ordered collection of Python objects. 
+                        The only difference between a tuple and a list is that tuples are immutable i.e. tuples cannot be modified after it is created. 
+                        It is represented by a tuple class</li>
+                    <li>Boolean: This data type is True or False. 
+                        Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). 
+                        But non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. 
+                        It is denoted by the class bool. </li>
+                    <li>Set: This data type is an unordered collection of data types that is iterable, mutable and has no duplicate elements. 
+                        The order of elements in a set is undefined though it may consist of various elements.</li>
+                    <li>Dictionary: This data type takes 2 different elements, a <span class="statements">Key</span>
+                    and a <span class="statements">Value</span>. These key and value elements are stored in pairs, like a dictionary stores a word and a description
+                    </li>
+                </ul>
+            </section>
+            <section class="main-section" id="conditional_statements">
+                <header>Conditional Statements</header>
+                <p class="medium big-font">What is a conditional statement?</p>
+                <p class="text">Conditional statements use operators shown above <a href="#pre-reqs">here</a></p>
+                <p class="text">provided below will be examples</p>
+                <div class="code-background">
+                    <code>if 1 > 0 and 0 < 1:<br></code>
+                    <code class="indent">print("True")</code>
+                </div>
+                <br><br>
+                <div class="code-background">
+                    <code>a = 5<br>b = 10 <br>if a > b or a+b = 15<br></code>
+                    <code class="indent">print("a is not greater than b but a + b does equal 15!")</code>
+                </div>
+            </section>
+            <section class="main-section" id="loops">
+                <header>Loops</header>
+                <p class="medium big-font">There are 2 common loops in Python</p>
+                <p class="text">These 2 loops are called <span class="statements">For and While</span> loops
+                Below is shown an example of each.</p>
+                <p class="text">For Loop:</p>
+                <div class="code-background">
+                    <code>for x in range(3):</code><br>
+                    <code class="indent">print(x)</code>
+                </div>
+                <p class="text">Output:</p>
+                <div class="code-background">
+                    <code>0<br>1<br>2</code>
+                </div>
+                <p class="text">While Loop:</p>
+                <div class="code-background">
+                    <code>x = 0</code><br>
+                    <code>while x < 3:</code><br>
+                    <code class="indent">print(x)</code><br>
+                    <code class="indent">x += 1</code>
+                </div>
+                <p class="text">Output:</p>
+                <div class="code-background">
+                    <code>0<br>1<br>2</code>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
